@@ -27,7 +27,7 @@ class UI{
         document.getElementById('product-form').reset();
     }
 
-    deleteProduct(element){
+    deleteProductos(element){
         if(element.name === "delete"){
             element.parentElement.parentElement.parentElement.remove();
             this.showMessage("ELIMINADO CORRECTAMENTE","danger")
